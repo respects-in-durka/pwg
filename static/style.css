@@ -1,0 +1,45 @@
+*, *::before, *::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    background: #C9C6C6 no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: block;
+}
+#editor {
+    width: 1310px;
+    height: 591px;
+}
+.response {
+    width: 1310px;
+    height: 100%;
+    background: #FFFFFF;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+#response {
+    margin: 10px;
+}
+.button {
+    width: 300px;
+    height: 90px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    display: flex; position: relative; align-items: center; justify-content: center
+}
+.button img {
+    width: 60px;
+    height: 89px;
+}
+.wrapper {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
